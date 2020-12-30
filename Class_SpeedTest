@@ -16,7 +16,7 @@ namespace Microsenzori
 
         public Class_SpeedTest()
         {
-            Values = new ChartValues<double>(); //.WithQuality(Quality.Highest);
+            Values = new ChartValues<double>(); 
             ReadCommand = new Class_RelayCommand(Read);
             StopCommand = new Class_RelayCommand(Stop);
             CleaCommand = new Class_RelayCommand(Clear);
